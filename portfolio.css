@@ -1,0 +1,314 @@
+body {
+    background-color: blanchedalmond;
+    color: rgb(122, 81, 20);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(224, 201, 165);
+    height: 8vw;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:rgb(122, 81, 20);
+}
+nav ul li a:hover
+{
+    color: rgb(35, 1, 1);
+    font-size: 1.05rem;
+}
+body
+{
+    animation-name: bcchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bcchange
+{
+    from {background-color: blanchedalmond;}
+    to {background-color: rgb(164, 143, 111)}
+}
+
+.left
+{
+    font-size: 30px;
+    animation: slide 3s;
+    margin-left: 70px;
+}
+@keyframes slide {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 70x;
+    }
+
+    100% {
+        margin-left: 70px;
+    }
+}
+.firstsec
+{
+    display: flex;
+    height: 45vw; 
+}
+.leftsec
+{
+    width: 50%;
+    color: rgb(122, 81, 20);
+    font-size: 3.5rem;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.rightsec img
+{
+    width: 450px;
+    height: 400px;
+}
+
+.yellow
+{
+    color: rgb(80, 50, 5);
+}
+#element
+{
+    color :rgb(80, 50, 5);
+}
+.icondiv
+{
+    margin-top: 40px;
+    /* font-size: 30px; */
+    animation: slide 3s;
+    margin-left: 70px;
+}
+@keyframes slide {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 70x;
+    }
+
+    100% {
+        margin-left: 70px;
+    }
+}
+.icons
+{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 20px;
+}
+.icons:hover
+{
+    width: 4vw;
+    height: 4vw;
+}
+.sectitle
+{
+    font-size: 3.5rem;
+    height: 8vw;
+    display: flex;
+   
+    background-color: rgb(224, 201, 165);
+    color:rgb(122, 81, 20);
+}
+.myskill
+{
+    margin-left: 70px;
+    margin-top: 15px;
+    text-shadow: 4px 4px 8px #ffffff, 0 0 25px rgb(222, 164, 89), 0 0 5px rgb(86, 71, 39);
+    
+}
+
+.secleft
+{
+     width: 30%; 
+     display: inline-flex; 
+    margin-left: 60px;
+    margin-top: 40px;
+    /* float: left; */
+    /* height: 30vw; */
+    color: rgb(36, 22, 1);
+    font-size: 2.5rem;
+    box-sizing: 20vw;
+    border-radius: 20%;
+    padding: 2%;
+    justify-content: center;
+    text-align: center;
+    background-color: #ccb495;
+    opacity: 100%;
+}
+.secright
+{
+     width: 30%; 
+    display: inline-flex;
+    margin-left: 200px;
+    margin-top: 40px;
+    color: rgb(36, 22, 1);
+    font-size: 2.5rem;
+    box-sizing: 20vw;
+    border-radius: 20%;
+    padding: 2%;
+    justify-content: center;
+    text-align: center;
+    background-color: #ccb495;
+    opacity: 100%;
+
+}
+.secondsec img
+{
+    width: 8vw;
+    height: 8vw;
+   margin-right: 40px;
+   margin-top: 40px;
+}
+.nextdiv
+{
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+.images
+{
+    width: 40%; 
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.proskills
+{
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+.proskills ul
+{
+    font-size: 25px;
+    
+}
+.proskills ul li   
+{    list-style: none;
+     margin-top: 85px ;
+     margin-left: 200px;
+     justify-content: center; 
+     text-align: center;
+     width: 60%;
+     box-sizing: 30vw;
+     padding: 5%;
+     background-color: rgb(84, 57, 16);
+     border-radius: 50%;
+     box-shadow: 8px 8px 16px #000000;
+     color: rgb(191, 154, 98);
+} 
+.thirdtitle
+{
+    font-size: 3.5rem;
+    height: 100px;
+    display: flex;
+   
+    background-color: rgb(224, 201, 165);
+    color:rgb(122, 81, 20);
+}
+.about
+{
+    margin-left: 70px;
+    margin-top: 15px;
+    text-shadow: 4px 4px 8px #ffffff, 0 0 25px rgb(222, 164, 89), 0 0 5px rgb(86, 71, 39);
+}
+.desc
+{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 200px;
+    height: 300px;
+    color: rgb(122, 81, 20);
+    font-size: 1.5rem;
+
+}
+.imp
+{
+    color: rgb(80, 50, 5);
+}
+.fourthtitle
+{
+    font-size: 3.5rem;
+    height: 100px;
+    display: flex;
+    background-color: rgb(224, 201, 165);
+    color:rgb(122, 81, 20);
+}
+.projects
+{
+    margin-left: 70px;
+    margin-top: 15px;
+    text-shadow: 4px 4px 8px #ffffff, 0 0 25px rgb(222, 164, 89), 0 0 5px rgb(86, 71, 39);
+}
+.fifthtitle
+{
+    font-size: 3.5rem;
+    height: 100px;
+    display: flex;
+    background-color: rgb(224, 201, 165);
+    color:rgb(122, 81, 20);
+}
+.contact
+{
+    margin-left: 70px;
+    margin-top: 15px;
+    text-shadow: 4px 4px 8px #ffffff, 0 0 25px rgb(222, 164, 89), 0 0 5px rgb(86, 71, 39);
+}
+.mob img
+{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+.img1
+{
+    display: inline-flex;
+}
+.mail
+{
+    margin-bottom: 10px;
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+.img2
+{
+    display: inline-flex;
+}
+.phn
+{
+    display: inline-flex;
+    font-size: 1.5rem;
+}
