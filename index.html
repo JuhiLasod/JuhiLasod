@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juhi Lasod-portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,17 +12,17 @@
             <div class="left">Juhi's Portfolio</div>
             <div class="right">
                 <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Skills</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Projects</a></li>
-                <li><a href="/">Contact Me</a></li>
+                <li ><a class="active" href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstsec">
+        <section id="home" class="firstsec">
             
             <div class="leftsec">My name is <span class="yellow">Juhi Lasod</span>.
                 <div>I am a </div>
@@ -40,7 +40,7 @@
 
         </section>
         
-        <section class="secondsec">
+        <section id="skills" class="secondsec">
             <div class="sectitle">
                 <div class="myskill">My Skills</div>
             </div>
@@ -54,12 +54,12 @@
                 <img src="D:\JUHI\pngegg (2).png" alt="js">
                 <img src="D:\JUHI\pngegg (3).png" alt="css">
                 <img src="D:\JUHI\pngegg (4).png" alt="c">
-                <img src="D:\JUHI\pngegg (5).png" alt="js">
+                <!-- <img src="D:\JUHI\pngegg (5).png" alt="js"> -->
                 <img src="D:\JUHI\pngwing.com (1).png" alt="java">
                 <img src="D:\JUHI\pngwing.com (2).png" alt="python">
                 <img src="D:\JUHI\pngwing.com (3).png" alt="react">
-                <img src="D:\JUHI\pngwing.com (4).png" alt="mongo">
-                <img src="D:\JUHI\pngwing.com (5).png" alt="express">
+                <!-- <img src="D:\JUHI\pngwing.com (4).png" alt="mongo"> -->
+                <!-- <img src="D:\JUHI\pngwing.com (5).png" alt="express"> -->
             </div>
             
             <div class="proskills">
@@ -71,10 +71,10 @@
                 </ul>
             </div>
             </div>
-            
+        
         </section>
 
-        <section class="thirdsec">
+        <section id="about" class="thirdsec">
             <div class="thirdtitle">
                 <div class="about">About Me</div>
             </div>
@@ -82,12 +82,15 @@
                 I am a post graduate(MCA) from <span class="imp">Banasthali Vidhyapeeth, Jaipur</span>. I have knowlegde for various programming languages from basic C language to other modern world languages. I know how to develop website and also full <span class="imp">MERN stack development</span>.
             </div>
         </section>
-        <section class="fourthsec">
+
+        <section id="projects" class="fourthsec">
         <div class="fourthtitle">
             <div class="projects">Projects</div>
         </div>
+            <div class="desc">Developed a dynamic news aggregator website utilizing various news APIs to provide users with real-time updates from multiple sources. </div>
         </section>
-        <section class="fifthsec">
+
+        <section id="contact" class="fifthsec">
             <div class="fifthtitle">
                 <div class="contact">Contact Me</div>
             </div>
@@ -102,10 +105,11 @@
             </div>
         </section>
     </main>
+    <script src="portfolio.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['web developer', '&amp; graphic designer.'],
+          strings: ['web developer.'],
           typeSpeed: 50,
         });
       </script>
